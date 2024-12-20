@@ -263,7 +263,7 @@ body {
     max-width: 400px;
 }
 
-.about__title {
+.section__title {
     margin: 0;
     margin-bottom: 20px;
     font-weight: 300;
@@ -300,3 +300,45 @@ body {
     opacity: 0.7;
 }
 
+.about__btn span {
+    margin-left: 12px;
+}
+
+/* TASKS */
+
+.tasks__wrapper {
+    margin-bottom: 120px;
+}
+
+.tasks__wrapper .section__title {
+    margin-bottom: 60px;
+}
+
+.tasks__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks__item {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.tasks__steps {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 239px;
+    color: #F2F2F2;
+}
+
+.tasks__txt {
+    max-width: 420px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+}
